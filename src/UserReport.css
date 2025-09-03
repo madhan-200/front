@@ -1,0 +1,77 @@
+.user-report-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-report-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+ 
+  .search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* User Report Table */
+  .user-report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .user-report-table th, 
+  .user-report-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .user-report-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .user-report-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-report-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .user-report-container {
+      padding: 10px;
+    }
+  
+    .search-bar input {
+      width: 80%;
+      font-size: 14px;
+    }
+  
+    .user-report-table th, 
+    .user-report-table td {
+      padding: 8px;
+    }
+  
+    .user-report-table {
+      font-size: 14px;
+    }
+  }  

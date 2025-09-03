@@ -1,0 +1,122 @@
+
+.manage-settings-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #222; 
+    color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+
+.heading {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+
+.settings-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-group label {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left; 
+    color: #0820f7; 
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #888; 
+    background-color: #444; 
+    color: white; 
+}
+
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+
+.checkbox-group label {
+    margin: 0; 
+}
+
+
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; 
+}
+
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .manage-settings-container {
+        padding: 15px;
+    }
+
+    .heading {
+        font-size: 1.6rem;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 0.9rem;
+    }
+
+    .submit-btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}

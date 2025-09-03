@@ -1,0 +1,79 @@
+.add-waste-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.5s ease-in-out;
+  }
+  
+  .add-waste-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .add-waste-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-waste-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .add-waste-form input,
+  .add-waste-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .add-waste-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #c9302c;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .add-waste-container {
+      padding: 15px;
+    }
+  
+    .submit-btn {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }  
